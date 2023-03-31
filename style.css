@@ -1,0 +1,237 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'IBM Plex Serif', serif;
+    width: auto;
+
+}
+
+#banner{
+    background: url(images/aura.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.logo{
+    width: 140px;
+    position: absolute;
+    top: 4%;
+    left: 10%;
+}
+.banner-text{
+    text-align: center;
+    color: #000;
+    padding-top: 300px;
+}
+.banner-text h1{
+    font-size: 90px;
+    font-family: 'Bebas Neue', cursive;
+}
+.banner-text p{
+	padding-bottom: 5px;
+    margin: 5;
+    font-size: 20px;
+    
+}
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: skyblue;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #b8b5b5;
+    margin-top: 20px;
+}
+.button:hover {
+    background-color: #2d82bb
+}
+  
+.button:active {
+    background-color: #1c6aaa;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.head{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color: #87CEFA;
+	background-size: cover;
+    background-position: center;
+    height: 90vh;
+
+
+}
+nav{
+    display: flex;
+    width: 84%;
+    margin:auto;
+    padding: 30px 0;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    
+}
+nav ul li a{
+    padding: 5px ; 
+    font-family: 'Bebas Neue', cursive;
+    color: black;
+    font-size: 22px;
+
+
+}
+nav ul li a:hover{
+    border-bottom: 2px solid white;
+
+}
+
+
+
+.about{
+    width: 100%;
+    padding: 78px 0px;
+    background-color: #87CEFA;
+    margin-bottom: 250px;
+}
+.about img{
+    height: auto;
+    width: 420px;
+}
+.about-text{
+    width: 550px;
+}
+.main{
+	padding: 10px;
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h1{
+    color:white;
+    font-size: 50px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+
+-- Socials
+
+
+.socials{
+    width: 100%;
+    padding: 78px 0px;
+    background-color: #87CEFA;
+
+}
+.socials img{
+    height: auto;
+    padding: 20px;
+	padding-bottom: 5px;
+    width: 60px;
+}
+
+.socials-text{
+    width: 550px;
+    padding: 20px;
+}
+
+.socials-text h5{
+    color: black;
+    font-size: 25px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+
+}
+
+
+
+
+.skills {
+    padding-top: 60px;
+    margin-top: 1%;
+}
+
+.skills span{
+    font-size: 30px;
+    color:black;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.sideL {
+    margin: 0%;
+    padding: 0%;
+    width: 40%;
+    padding-bottom: 30px;
+    margin-right: 20px;
+    margin-left: 100px;
+    padding-left: 30px;
+    float: left;
+    background-color: rgb(95, 189, 243);
+    border-radius: 3rem;
+    box-shadow: 5px 5px 20px whitesmoke;
+}
+.sideL h1 {
+    text-align: center;
+    margin-bottom: 4px;
+    margin-top: 30px;
+}
+
+.Tab tbody {
+    font-size: 18px;
+}
+
+.Tab  {
+    width: 120%;
+    
+}
+
+.sideR {
+    margin: 0%;
+    padding: 0%;
+    margin-right: 100px;
+    width: 40%;
+    padding-left: 20x;
+    float: right;
+    background-color: rgb(95, 189, 243);
+    border-radius: 3rem;
+    box-shadow: 5px 5px 20px whitesmoke;
+}
+
+.sideR h1 {
+    text-align: center;
+    margin-bottom: 4px;
+    margin-top: 30px;
+}
+
+.sideR p {
+    font-size: 18px;   
+    margin-left: 5rem;
+    margin-right: 5rem;
+    text-align: center, justify;
+    padding-bottom: 55px;
+}
+
+
+
+
+
+
+
+
+
